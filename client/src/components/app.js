@@ -20,7 +20,7 @@ const App = () => (
                 <Link to="/contact">Contact</Link>
             </li>
             <li>
-                <Link to="/api-test">Api Test</Link>
+                <Link to="/test">Api Test</Link>
             </li>
             
         </ul>
@@ -28,7 +28,7 @@ const App = () => (
         <Route exact path="/" component={Home}/>
         <Route path="/about" component={About}/>
         <Route path="/contact" component={Contact}/>
-        <Route path="/api-test" component={ApiTest}/>
+        <Route path="/test" component={ApiTest}/>
             
     </div>
 );
